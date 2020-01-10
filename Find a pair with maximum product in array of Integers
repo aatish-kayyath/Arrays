@@ -1,4 +1,5 @@
-def maxprod(arr):
+def maxprod(arr,n):
+  n=len(arr)
   posa=0
   posb=0
   nega=0
