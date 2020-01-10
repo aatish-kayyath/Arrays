@@ -1,0 +1,24 @@
+def maxprod(arr):
+  posa=0
+  posb=0
+  nega=0
+  negb=0
+  
+  for i in range(n):
+    if(arr[i]>posa):
+      posb=posa
+      posa=arr[i]
+    elif(arr[i]>posb):
+      posb=arr[i]
+      
+   for i in range(n):
+     if(arr[i]<0 and abs(arr[i])>abs(nega)):
+        negb=nega
+        nega=arr[i]
+     elif(arr[i]<0 and abs(arr[i])>abs(negb))
+        negb=arr[i]
+        
+    if nega*negb>posa*posb:
+        print(nega,negb)
+     elif:
+        print(posa,posb)
